@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(185, 163, 187);
+}
+.first{
+    width: 100%;
+    height: 450px;
+    /* background-color: rgb(152, 209, 152); */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: ; */
+}
+.second{
+    /* height: 100%;
+    width: 40%; */
+    /* background-color: pink; */
+    background-image: url(../picturs/four);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: relative;
+}
+/*  */
+.secondone{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: -340px;
+    background-color: rgba(81, 23, 88,.4);
+    padding: 20px;
+top: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+input{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    /* bor */
+}
+input:hover{
+    background-color: rgb(231, 195, 195);
+}
+button{
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 300px;
+    background-color: rgba(215, 111, 233, 0.6);
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    /* transform: scale(0.8); */
+background-color: rgb(83, 114, 37);
+}
+.one{
+    font-size: 35px;
+    color: moccasin;
+    
+}
+.one:hover{
+    color: rgb(60, 97, 5);
+font-size: 40px;
+font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    transform: scale(1);
+}
+
+.six{
+    height: 20px;
+    font-weight: 30px;
+    display: flex;
+    right: 0px;
+}
+#imgg{
+    background-color: rgb(243, 243, 250);
+    /* width: 0px; */
+    /* color: whitesmoke;
+    font-weight: 500;
+    font-size: 18px; */
+}
+.seven{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.imgone:hover{
+   transform: scale(1);
+   /* background-color: red; */
+}
+.imgone{
+    background-color:  rgb(243, 243, 250);
+    /* color: whitesmoke; */
+    font-weight: 500;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    /* background-color: green; */
+}
+#usererror,#passerror{
+    color: red;
+    font-size: 10px;
+}
+.box{
+    position: absolute;
+    z-index: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+transform: scale(0);
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(242, 244, 248, 0.7);
+}
+.boxbutton{
+    padding: 5px;
+    /* color: blueviolet; */
+    font-size: 8px;
+    height: 15px;
+    width: 50px;
+    background-color: rgb(54, 50, 50);
+}

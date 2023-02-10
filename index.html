@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/form2.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box" id="popup">
+        <div class="thankyou"> Thank You For Submitting !!</div>
+       <div class="b1"> <button onclick="Gayab()"> OK</button></div>
+    </div>
+    <div class="first">
+        <div class="second">Registration Form
+        </div>
+        <div class="third">
+            <div onclick="Form(a)">
+                <input type="text" placeholder="Name"  id="name"/>
+                <p id="nameerror"></p>
+            </div>
+            <div onclick="Form(a)">
+            <input type="text" placeholder="Email Address" id="email" />
+            <p id="emailerror"></p>
+           </div>
+           <div onclick="Form(a)"> 
+            <input type="text" placeholder="Country" id="country" />
+            <p id="countryerror"></p>
+        </div>
+           
+           <div onclick="Form(a)" > 
+             <input type="text" placeholder="Phone" id="phone" />
+             <p id="phoneerror"></p>
+            </div>
+            <div onclick="Form(a)" class="pswd">
+                <input type="password" placeholder="Password" id="pswd" />
+                <p id="passerror"></p>
+            </div>
+        </div>
+        <div class="forth" onclick="Btn()">
+            <button> Create Account</button>
+            <!-- <button></button> -->
+        </div>
+        <!-- <div class="progressbar"> // onclick="Progress()">// -->
+            <div class="progressbar">
+            <div class="moved" id="bar"></div>
+        </div>
+    </div>
+    <script src="./js/form2.js" />
+</body>
+
+</html>
